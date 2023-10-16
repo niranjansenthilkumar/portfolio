@@ -8,10 +8,10 @@ export default {
   },
   footer: (
     <small className="mt-16 block">
-      <time>{YEAR}</time> © Niranjan (NJ) Senthilkumar.
-      {/* <a className="float-right" href="/feed.xml">
+      <time>{YEAR}</time> © Your Name.
+      <a className="float-right" href="/feed.xml">
         RSS
-      </a> */}
+      </a>
     </small>
   ),
   readMore: "Read More →",

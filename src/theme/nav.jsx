@@ -12,6 +12,7 @@ export default function Nav() {
       <div className="flex grow flex-wrap items-center justify-end gap-3">
         {navPages.map((page) => {
           const name = page.frontMatter?.title || page.name;
+          if (name === "Posts") return null;
           if (page.active) {
             return (
               <span
