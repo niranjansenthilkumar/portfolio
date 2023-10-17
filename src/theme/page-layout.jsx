@@ -61,8 +61,8 @@ export const PageLayout = ({ children }) => {
     <BasicLayout>
       <MDXTheme>{children}</MDXTheme>
       <hr />
-      <h2>Posts</h2>
-      {postList}
+      {/* <h2>Posts</h2>
+      {postList} */}
     </BasicLayout>
   );
 };
